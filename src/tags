@@ -1,0 +1,625 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AE_ERR	ae.h	9;"	d
+AE_NONE	ae.h	4;"	d
+AE_OK	ae.h	8;"	d
+AE_READABLE	ae.h	5;"	d
+AE_WRITABLE	ae.h	6;"	d
+COS_SYMMETRIC	fann/include/fann_cpp.h	/^	    COS_SYMMETRIC$/;"	e	enum:FANN::activation_function_enum
+DEVICE_ID_LENGTH	wsn.c	13;"	d	file:
+DOUBLEFANN	fann/include/doublefann.h	25;"	d
+DOUBLEFANN	fann/include/doublefann.h	26;"	d
+DWORD	fann/include/compat_time.h	/^$/;"	t
+ELLIOT	fann/include/fann_cpp.h	/^        ELLIOT,$/;"	e	enum:FANN::activation_function_enum
+ELLIOT_SYMMETRIC	fann/include/fann_cpp.h	/^        ELLIOT_SYMMETRIC,$/;"	e	enum:FANN::activation_function_enum
+EPOCHFILETIME	fann/include/compat_time.h	83;"	d
+EPOCHFILETIME	fann/include/compat_time.h	85;"	d
+ERRORFUNC_LINEAR	fann/include/fann_cpp.h	/^        ERRORFUNC_LINEAR = FANN_ERRORFUNC_LINEAR,$/;"	e	enum:FANN::error_function_enum
+ERRORFUNC_TANH	fann/include/fann_cpp.h	/^        ERRORFUNC_TANH$/;"	e	enum:FANN::error_function_enum
+FANN	fann/include/fann_cpp.h	/^namespace FANN$/;"	n
+FANNPRINTF	fann/include/doublefann.h	27;"	d
+FANNPRINTF	fann/include/fixedfann.h	27;"	d
+FANNPRINTF	fann/include/floatfann.h	27;"	d
+FANNSCANF	fann/include/doublefann.h	28;"	d
+FANNSCANF	fann/include/fixedfann.h	28;"	d
+FANNSCANF	fann/include/floatfann.h	28;"	d
+FANN_ACTIVATIONFUNC_NAMES	fann/include/fann_data.h	/^static char const *const FANN_ACTIVATIONFUNC_NAMES[] = {$/;"	v
+FANN_API	fann/include/fann.h	127;"	d
+FANN_API	fann/include/fann.h	130;"	d
+FANN_CONFIG_FILE	wsn.c	15;"	d	file:
+FANN_CONF_VERSION	fann/include/fann_internal.h	34;"	d
+FANN_CONF_VERSION	fann/include/fann_internal.h	36;"	d
+FANN_COS	fann/include/fann_data.h	/^	FANN_COS$/;"	e	enum:fann_activationfunc_enum
+FANN_COS_SYMMETRIC	fann/include/fann_data.h	/^	FANN_COS_SYMMETRIC,$/;"	e	enum:fann_activationfunc_enum
+FANN_CPP_H_INCLUDED	fann/include/fann_cpp.h	2;"	d
+FANN_ELLIOT	fann/include/fann_data.h	/^	FANN_ELLIOT,$/;"	e	enum:fann_activationfunc_enum
+FANN_ELLIOT_SYMMETRIC	fann/include/fann_data.h	/^	FANN_ELLIOT_SYMMETRIC,$/;"	e	enum:fann_activationfunc_enum
+FANN_ERRORFUNC_LINEAR	fann/include/fann_data.h	/^	FANN_ERRORFUNC_LINEAR = 0,$/;"	e	enum:fann_errorfunc_enum
+FANN_ERRORFUNC_NAMES	fann/include/fann_data.h	/^static char const *const FANN_ERRORFUNC_NAMES[] = {$/;"	v
+FANN_ERRORFUNC_TANH	fann/include/fann_data.h	/^	FANN_ERRORFUNC_TANH$/;"	e	enum:fann_errorfunc_enum
+FANN_ERRSTR_MAX	fann/include/fann_error.h	25;"	d
+FANN_EXTERNAL	fann/include/fann.h	123;"	d
+FANN_EXTERNAL	fann/include/fann.h	125;"	d
+FANN_EXTERNAL	fann/include/fann.h	129;"	d
+FANN_E_CANT_ALLOCATE_MEM	fann/include/fann_error.h	/^	FANN_E_CANT_ALLOCATE_MEM,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_OPEN_CONFIG_R	fann/include/fann_error.h	/^	FANN_E_CANT_OPEN_CONFIG_R,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_OPEN_CONFIG_W	fann/include/fann_error.h	/^	FANN_E_CANT_OPEN_CONFIG_W,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_OPEN_TD_R	fann/include/fann_error.h	/^	FANN_E_CANT_OPEN_TD_R,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_OPEN_TD_W	fann/include/fann_error.h	/^	FANN_E_CANT_OPEN_TD_W,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_READ_CONFIG	fann/include/fann_error.h	/^	FANN_E_CANT_READ_CONFIG,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_READ_CONNECTIONS	fann/include/fann_error.h	/^	FANN_E_CANT_READ_CONNECTIONS,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_READ_NEURON	fann/include/fann_error.h	/^	FANN_E_CANT_READ_NEURON,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_READ_TD	fann/include/fann_error.h	/^	FANN_E_CANT_READ_TD,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_TRAIN_ACTIVATION	fann/include/fann_error.h	/^	FANN_E_CANT_TRAIN_ACTIVATION,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_USE_ACTIVATION	fann/include/fann_error.h	/^	FANN_E_CANT_USE_ACTIVATION,$/;"	e	enum:fann_errno_enum
+FANN_E_CANT_USE_TRAIN_ALG	fann/include/fann_error.h	/^	FANN_E_CANT_USE_TRAIN_ALG,$/;"	e	enum:fann_errno_enum
+FANN_E_INDEX_OUT_OF_BOUND	fann/include/fann_error.h	/^	FANN_E_INDEX_OUT_OF_BOUND,$/;"	e	enum:fann_errno_enum
+FANN_E_INPUT_NO_MATCH	fann/include/fann_error.h	/^	FANN_E_INPUT_NO_MATCH,$/;"	e	enum:fann_errno_enum
+FANN_E_NO_ERROR	fann/include/fann_error.h	/^	FANN_E_NO_ERROR = 0,$/;"	e	enum:fann_errno_enum
+FANN_E_OUTPUT_NO_MATCH	fann/include/fann_error.h	/^	FANN_E_OUTPUT_NO_MATCH$/;"	e	enum:fann_errno_enum
+FANN_E_SCALE_NOT_PRESENT	fann/include/fann_error.h	/^	FANN_E_SCALE_NOT_PRESENT,$/;"	e	enum:fann_errno_enum
+FANN_E_TRAIN_DATA_MISMATCH	fann/include/fann_error.h	/^	FANN_E_TRAIN_DATA_MISMATCH,$/;"	e	enum:fann_errno_enum
+FANN_E_TRAIN_DATA_SUBSET	fann/include/fann_error.h	/^	FANN_E_TRAIN_DATA_SUBSET,$/;"	e	enum:fann_errno_enum
+FANN_E_WRONG_CONFIG_VERSION	fann/include/fann_error.h	/^	FANN_E_WRONG_CONFIG_VERSION,$/;"	e	enum:fann_errno_enum
+FANN_E_WRONG_NUM_CONNECTIONS	fann/include/fann_error.h	/^	FANN_E_WRONG_NUM_CONNECTIONS,$/;"	e	enum:fann_errno_enum
+FANN_FIX_VERSION	fann/include/fann_internal.h	30;"	d
+FANN_FLO_VERSION	fann/include/fann_internal.h	31;"	d
+FANN_GAUSSIAN	fann/include/fann_data.h	/^	FANN_GAUSSIAN,$/;"	e	enum:fann_activationfunc_enum
+FANN_GAUSSIAN_STEPWISE	fann/include/fann_data.h	/^	FANN_GAUSSIAN_STEPWISE,$/;"	e	enum:fann_activationfunc_enum
+FANN_GAUSSIAN_SYMMETRIC	fann/include/fann_data.h	/^	FANN_GAUSSIAN_SYMMETRIC,$/;"	e	enum:fann_activationfunc_enum
+FANN_GET	fann/include/fann_internal.h	39;"	d
+FANN_GET_SET	fann/fann_cascade.c	/^FANN_GET_SET(fann_type, cascade_weight_multiplier)$/;"	f
+FANN_GET_SET	fann/include/fann_internal.h	51;"	d
+FANN_INCLUDE	fann/include/doublefann.h	30;"	d
+FANN_INCLUDE	fann/include/fixedfann.h	30;"	d
+FANN_INCLUDE	fann/include/floatfann.h	30;"	d
+FANN_LINEAR	fann/include/fann_data.h	/^	FANN_LINEAR = 0,$/;"	e	enum:fann_activationfunc_enum
+FANN_LINEAR_PIECE	fann/include/fann_data.h	/^	FANN_LINEAR_PIECE,$/;"	e	enum:fann_activationfunc_enum
+FANN_LINEAR_PIECE_SYMMETRIC	fann/include/fann_data.h	/^	FANN_LINEAR_PIECE_SYMMETRIC,$/;"	e	enum:fann_activationfunc_enum
+FANN_NETTYPE_LAYER	fann/include/fann_data.h	/^    FANN_NETTYPE_LAYER = 0, \/* Each layer only has connections to the next layer *\/$/;"	e	enum:fann_nettype_enum
+FANN_NETTYPE_NAMES	fann/include/fann_data.h	/^static char const *const FANN_NETTYPE_NAMES[] = {$/;"	v
+FANN_NETTYPE_SHORTCUT	fann/include/fann_data.h	/^    FANN_NETTYPE_SHORTCUT \/* Each layer has connections to all following layers *\/$/;"	e	enum:fann_nettype_enum
+FANN_SET	fann/include/fann_internal.h	45;"	d
+FANN_SIGMOID	fann/include/fann_data.h	/^	FANN_SIGMOID,$/;"	e	enum:fann_activationfunc_enum
+FANN_SIGMOID_STEPWISE	fann/include/fann_data.h	/^	FANN_SIGMOID_STEPWISE,$/;"	e	enum:fann_activationfunc_enum
+FANN_SIGMOID_SYMMETRIC	fann/include/fann_data.h	/^	FANN_SIGMOID_SYMMETRIC,$/;"	e	enum:fann_activationfunc_enum
+FANN_SIGMOID_SYMMETRIC_STEPWISE	fann/include/fann_data.h	/^	FANN_SIGMOID_SYMMETRIC_STEPWISE,$/;"	e	enum:fann_activationfunc_enum
+FANN_SIN	fann/include/fann_data.h	/^	FANN_SIN,$/;"	e	enum:fann_activationfunc_enum
+FANN_SIN_SYMMETRIC	fann/include/fann_data.h	/^	FANN_SIN_SYMMETRIC,$/;"	e	enum:fann_activationfunc_enum
+FANN_STOPFUNC_BIT	fann/include/fann_data.h	/^	FANN_STOPFUNC_BIT$/;"	e	enum:fann_stopfunc_enum
+FANN_STOPFUNC_MSE	fann/include/fann_data.h	/^	FANN_STOPFUNC_MSE = 0,$/;"	e	enum:fann_stopfunc_enum
+FANN_STOPFUNC_NAMES	fann/include/fann_data.h	/^static char const *const FANN_STOPFUNC_NAMES[] = {$/;"	v
+FANN_THRESHOLD	fann/include/fann_data.h	/^	FANN_THRESHOLD,$/;"	e	enum:fann_activationfunc_enum
+FANN_THRESHOLD_SYMMETRIC	fann/include/fann_data.h	/^	FANN_THRESHOLD_SYMMETRIC,$/;"	e	enum:fann_activationfunc_enum
+FANN_TRAIN_BATCH	fann/include/fann_data.h	/^	FANN_TRAIN_BATCH,$/;"	e	enum:fann_train_enum
+FANN_TRAIN_INCREMENTAL	fann/include/fann_data.h	/^	FANN_TRAIN_INCREMENTAL = 0,$/;"	e	enum:fann_train_enum
+FANN_TRAIN_NAMES	fann/include/fann_data.h	/^static char const *const FANN_TRAIN_NAMES[] = {$/;"	v
+FANN_TRAIN_QUICKPROP	fann/include/fann_data.h	/^	FANN_TRAIN_QUICKPROP,$/;"	e	enum:fann_train_enum
+FANN_TRAIN_RPROP	fann/include/fann_data.h	/^	FANN_TRAIN_RPROP,$/;"	e	enum:fann_train_enum
+FANN_TRAIN_SARPROP	fann/include/fann_data.h	/^	FANN_TRAIN_SARPROP$/;"	e	enum:fann_train_enum
+FANN_USE_DLL	fann/include/fann.h	118;"	d
+FILETIME	fann/include/compat_time.h	/^$/;"	t	typeref:struct:_FILETIME
+FIXEDFANN	fann/include/fixedfann.h	25;"	d
+FIXEDFANN	fann/include/fixedfann.h	26;"	d
+FLOATFANN	fann/include/floatfann.h	25;"	d
+FLOATFANN	fann/include/floatfann.h	26;"	d
+GAUSSIAN	fann/include/fann_cpp.h	/^        GAUSSIAN,$/;"	e	enum:FANN::activation_function_enum
+GAUSSIAN_STEPWISE	fann/include/fann_cpp.h	/^        GAUSSIAN_STEPWISE,$/;"	e	enum:FANN::activation_function_enum
+GAUSSIAN_SYMMETRIC	fann/include/fann_cpp.h	/^        GAUSSIAN_SYMMETRIC,$/;"	e	enum:FANN::activation_function_enum
+HighPart	fann/include/compat_time.h	/^		$/;"	m	struct:_LARGE_INTEGER::__anon1
+LARGE_INTEGER	fann/include/compat_time.h	/^ $/;"	t	typeref:union:_LARGE_INTEGER
+LAYER	fann/include/fann_cpp.h	/^        LAYER = FANN_NETTYPE_LAYER,$/;"	e	enum:FANN::network_type_enum
+LINEAR	fann/include/fann_cpp.h	/^        LINEAR = FANN_LINEAR,$/;"	e	enum:FANN::activation_function_enum
+LINEAR_PIECE	fann/include/fann_cpp.h	/^        LINEAR_PIECE,$/;"	e	enum:FANN::activation_function_enum
+LINEAR_PIECE_SYMMETRIC	fann/include/fann_cpp.h	/^        LINEAR_PIECE_SYMMETRIC,$/;"	e	enum:FANN::activation_function_enum
+LONG	fann/include/compat_time.h	/^$/;"	t
+LONGLONG	fann/include/compat_time.h	/^$/;"	t
+LPFILETIME	fann/include/compat_time.h	/^$/;"	t	typeref:struct:_FILETIME
+LowPart	fann/include/compat_time.h	/^		$/;"	m	struct:_LARGE_INTEGER::__anon1
+MAX_BACKLOG	anet.h	5;"	d
+MAX_BUFSIZE	wsn.h	6;"	d
+MAX_QUEUE_LENGTH	wsn.c	14;"	d	file:
+MAX_SETSIZE	wsn.h	7;"	d
+MYSQL_DATABASE	wsn.c	20;"	d	file:
+MYSQL_PASSWD	wsn.c	19;"	d	file:
+MYSQL_SERVER	wsn.c	17;"	d	file:
+MYSQL_USER	wsn.c	18;"	d	file:
+NULL	fann/include/fann.h	75;"	d
+OUT	fann/include/compat_time.h	48;"	d
+QuadPart	fann/include/compat_time.h	/^	 $/;"	m	union:_LARGE_INTEGER
+SCALE_ALLOCATE	fann/fann.c	1676;"	d	file:
+SCALE_ALLOCATE	fann/fann.c	1699;"	d	file:
+SCALE_LOAD	fann/fann_io.c	573;"	d	file:
+SCALE_LOAD	fann/fann_io.c	598;"	d	file:
+SCALE_RESET	fann/fann_train_data.c	1061;"	d	file:
+SCALE_SAVE	fann/fann_io.c	248;"	d	file:
+SCALE_SAVE	fann/fann_io.c	272;"	d	file:
+SCALE_SET_PARAM	fann/fann_train_data.c	1065;"	d	file:
+SHORTCUT	fann/include/fann_cpp.h	/^        SHORTCUT$/;"	e	enum:FANN::network_type_enum
+SIGMOID	fann/include/fann_cpp.h	/^        SIGMOID,$/;"	e	enum:FANN::activation_function_enum
+SIGMOID_STEPWISE	fann/include/fann_cpp.h	/^        SIGMOID_STEPWISE,$/;"	e	enum:FANN::activation_function_enum
+SIGMOID_SYMMETRIC	fann/include/fann_cpp.h	/^        SIGMOID_SYMMETRIC,$/;"	e	enum:FANN::activation_function_enum
+SIGMOID_SYMMETRIC_STEPWISE	fann/include/fann_cpp.h	/^        SIGMOID_SYMMETRIC_STEPWISE,$/;"	e	enum:FANN::activation_function_enum
+SIN_SYMMETRIC	fann/include/fann_cpp.h	/^	    SIN_SYMMETRIC,$/;"	e	enum:FANN::activation_function_enum
+STOPFUNC_BIT	fann/include/fann_cpp.h	/^	    STOPFUNC_BIT$/;"	e	enum:FANN::stop_function_enum
+STOPFUNC_MSE	fann/include/fann_cpp.h	/^	    STOPFUNC_MSE = FANN_STOPFUNC_MSE,$/;"	e	enum:FANN::stop_function_enum
+THRESHOLD	fann/include/fann_cpp.h	/^        THRESHOLD,$/;"	e	enum:FANN::activation_function_enum
+THRESHOLD_SYMMETRIC	fann/include/fann_cpp.h	/^        THRESHOLD_SYMMETRIC,$/;"	e	enum:FANN::activation_function_enum
+TRAIN_BATCH	fann/include/fann_cpp.h	/^        TRAIN_BATCH,$/;"	e	enum:FANN::training_algorithm_enum
+TRAIN_INCREMENTAL	fann/include/fann_cpp.h	/^        TRAIN_INCREMENTAL = FANN_TRAIN_INCREMENTAL,$/;"	e	enum:FANN::training_algorithm_enum
+TRAIN_QUICKPROP	fann/include/fann_cpp.h	/^        TRAIN_QUICKPROP,$/;"	e	enum:FANN::training_algorithm_enum
+TRAIN_RPROP	fann/include/fann_cpp.h	/^        TRAIN_RPROP,$/;"	e	enum:FANN::training_algorithm_enum
+TRAIN_SARPROP	fann/include/fann_cpp.h	/^	TRAIN_SARPROP$/;"	e	enum:FANN::training_algorithm_enum
+VERSION	fann/include/config.h	5;"	d
+VOID	fann/include/compat_time.h	46;"	d
+WIN32_LEAN_AND_MEAN	fann/include/compat_time.h	42;"	d
+WIN32_LEAN_AND_MEAN	fann/include/fann.h	57;"	d
+WINAPI	fann/include/compat_time.h	47;"	d
+WINBASEAPI	fann/include/compat_time.h	49;"	d
+WSN_PORT	wsn.h	5;"	d
+_AE_H_	ae.h	2;"	d
+_ANET_H_	anet.h	2;"	d
+_FILETIME	fann/include/compat_time.h	/^$/;"	s
+_LARGE_INTEGER	fann/include/compat_time.h	/^$/;"	u
+_TIMEVAL_H	fann/include/compat_time.h	33;"	d
+_WSN_H_	wsn.h	2;"	d
+__doublefann_h__	fann/include/doublefann.h	21;"	d
+__fann_activation_h__	fann/include/fann_activation.h	21;"	d
+__fann_cascade_h__	fann/include/fann_cascade.h	21;"	d
+__fann_data_h__	fann/include/fann_data.h	21;"	d
+__fann_error_h__	fann/include/fann_error.h	21;"	d
+__fann_h__	fann/include/fann.h	63;"	d
+__fann_internal_h__	fann/include/fann_internal.h	21;"	d
+__fann_io_h__	fann/include/fann_io.h	21;"	d
+__fann_train_h__	fann/include/fann_train.h	21;"	d
+__fixedfann_h__	fann/include/fixedfann.h	21;"	d
+__floatfann_h__	fann/include/floatfann.h	21;"	d
+activation_function	fann/include/fann_data.h	/^	enum fann_activationfunc_enum activation_function;$/;"	m	struct:fann_neuron	typeref:enum:fann_neuron::fann_activationfunc_enum
+activation_function_enum	fann/include/fann_cpp.h	/^    enum activation_function_enum {$/;"	g	namespace:FANN
+activation_steepness	fann/include/fann_data.h	/^	fann_type activation_steepness;$/;"	m	struct:fann_neuron
+aeCreateEventLoop	ae.c	/^aeEventLoop* aeCreateEventLoop(int setsize) {$/;"	f
+aeCreateFileEvent	ae.c	/^int aeCreateFileEvent(aeEventLoop* eventloop, int fd, int mask, $/;"	f
+aeDeleteEventLoop	ae.c	/^void aeDeleteEventLoop(aeEventLoop* eventloop) {$/;"	f
+aeDeleteFileEvent	ae.c	/^void aeDeleteFileEvent(aeEventLoop* eventloop, int fd, int mask) {$/;"	f
+aeEventLoop	ae.h	/^typedef struct aeEventLoop {$/;"	s
+aeEventLoop	ae.h	/^} aeEventLoop;$/;"	t	typeref:struct:aeEventLoop
+aeFileEvent	ae.h	/^typedef struct aeFileEvent {$/;"	s
+aeFileEvent	ae.h	/^} aeFileEvent;$/;"	t	typeref:struct:aeFileEvent
+aeFileProc	ae.h	/^typedef void aeFileProc(struct aeEventLoop *eventloop, int fd, void *data);$/;"	t
+aeMain	ae.c	/^int aeMain(aeEventLoop *eventloop) {$/;"	f
+anetClientHandler	anet.c	/^void anetClientHandler(aeEventLoop* eventloop, int fd, void* data) {$/;"	f
+anetCreateListenSock	anet.c	/^int anetCreateListenSock(int port) {$/;"	f
+anetListenHandler	anet.c	/^void anetListenHandler(aeEventLoop *eventloop, int fd, void *data) {$/;"	f
+anetNonBlock	anet.c	/^static int anetNonBlock(int fd) {$/;"	f	file:
+ann	fann/include/fann_cpp.h	/^        struct fann *ann;$/;"	m	class:FANN::neural_net	typeref:struct:FANN::neural_net::fann
+backlog	wsn.h	/^    int backlog;$/;"	m	struct:wsnServer
+buf	wsn.h	/^    char buf[MAX_BUFSIZE];$/;"	m	struct:wsnClient
+callback_type	fann/include/fann_cpp.h	/^    typedef int (*callback_type) (neural_net &net, training_data &train,$/;"	t	namespace:FANN
+cascadetrain_on_data	fann/include/fann_cpp.h	/^        void cascadetrain_on_data(const training_data &data, unsigned int max_neurons,$/;"	f	class:FANN::neural_net
+cascadetrain_on_file	fann/include/fann_cpp.h	/^        void cascadetrain_on_file(const std::string &filename, unsigned int max_neurons,$/;"	f	class:FANN::neural_net
+clear_scaling_params	fann/include/fann_cpp.h	/^        bool clear_scaling_params()$/;"	f	class:FANN::neural_net
+clientData	ae.h	/^    void *clientData;$/;"	m	struct:aeFileEvent
+clientData	wsn.c	/^typedef struct clientData {$/;"	s	file:
+clientData	wsn.c	/^} clientData;$/;"	t	typeref:struct:clientData	file:
+clientDataQueue	wsn.c	/^typedef struct clientDataQueue {$/;"	s	file:
+clientDataQueue	wsn.c	/^} clientDataQueue;$/;"	t	typeref:struct:clientDataQueue	file:
+cond	wsn.c	/^    pthread_cond_t  cond;$/;"	m	struct:clientDataQueue	file:
+connectMySQL	wsn.c	/^static MYSQL *connectMySQL() {$/;"	f	file:
+connection	fann/include/fann_cpp.h	/^    typedef struct fann_connection connection;$/;"	t	namespace:FANN	typeref:struct:FANN::fann_connection
+copy_from_struct_fann	fann/include/fann_cpp.h	/^	void copy_from_struct_fann(struct fann* other)$/;"	f	class:FANN::neural_net
+createClient	wsn.c	/^wsnClient* createClient(int fd) {$/;"	f
+create_from_file	fann/include/fann_cpp.h	/^        bool create_from_file(const std::string &configuration_file)$/;"	f	class:FANN::neural_net
+create_shortcut	fann/include/fann_cpp.h	/^        bool create_shortcut(unsigned int num_layers, ...)$/;"	f	class:FANN::neural_net
+create_shortcut_array	fann/include/fann_cpp.h	/^        bool create_shortcut_array(unsigned int num_layers,$/;"	f	class:FANN::neural_net
+create_sparse	fann/include/fann_cpp.h	/^        bool create_sparse(float connection_rate, unsigned int num_layers, ...)$/;"	f	class:FANN::neural_net
+create_sparse_array	fann/include/fann_cpp.h	/^        bool create_sparse_array(float connection_rate,$/;"	f	class:FANN::neural_net
+create_standard	fann/include/fann_cpp.h	/^        bool create_standard(unsigned int num_layers, ...)$/;"	f	class:FANN::neural_net
+create_standard_array	fann/include/fann_cpp.h	/^        bool create_standard_array(unsigned int num_layers, const unsigned int * layers)$/;"	f	class:FANN::neural_net
+create_train_from_callback	fann/include/fann_cpp.h	/^        void create_train_from_callback(unsigned int num_data,$/;"	f	class:FANN::training_data
+cur_ind	wsn.c	/^    int cur_num, cur_ind, cur_next, max_size;$/;"	m	struct:clientDataQueue	file:
+cur_next	wsn.c	/^    int cur_num, cur_ind, cur_next, max_size;$/;"	m	struct:clientDataQueue	file:
+cur_num	wsn.c	/^    int cur_num, cur_ind, cur_next, max_size;$/;"	m	struct:clientDataQueue	file:
+data	wsn.c	/^    clientData data[MAX_QUEUE_LENGTH]; $/;"	m	struct:clientDataQueue	file:
+deleteClient	wsn.c	/^void deleteClient(wsnClient* c) {$/;"	f
+descale_input	fann/include/fann_cpp.h	/^        void descale_input(fann_type *input_vector)$/;"	f	class:FANN::neural_net
+descale_output	fann/include/fann_cpp.h	/^        void descale_output(fann_type *output_vector)$/;"	f	class:FANN::neural_net
+descale_train	fann/include/fann_cpp.h	/^        void descale_train(training_data &data)$/;"	f	class:FANN::neural_net
+destroy	fann/include/fann_cpp.h	/^        void destroy()$/;"	f	class:FANN::neural_net
+destroy_train	fann/include/fann_cpp.h	/^        void destroy_train()$/;"	f	class:FANN::training_data
+dwHighDateTime	fann/include/compat_time.h	/^	$/;"	m	struct:_FILETIME
+dwLowDateTime	fann/include/compat_time.h	/^	$/;"	m	struct:_FILETIME
+el	wsn.h	/^    aeEventLoop *el;$/;"	m	struct:wsnServer
+epollfd	ae.h	/^    int epollfd;$/;"	m	struct:aeEventLoop
+errno_f	fann/include/fann_train.h	/^	enum fann_errno_enum errno_f;$/;"	m	struct:fann_train_data	typeref:enum:fann_train_data::fann_errno_enum
+error_function_enum	fann/include/fann_cpp.h	/^    enum error_function_enum {$/;"	g	namespace:FANN
+error_log	fann/include/fann_train.h	/^	FILE *error_log;$/;"	m	struct:fann_train_data
+errstr	fann/include/fann_train.h	/^	char *errstr;$/;"	m	struct:fann_train_data
+events	ae.h	/^    struct epoll_event* events;$/;"	m	struct:aeEventLoop	typeref:struct:aeEventLoop::epoll_event
+fann_abs	fann/include/fann_internal.h	134;"	d
+fann_activation	fann/fann_train.c	/^fann_type fann_activation(struct fann * ann, unsigned int activation_function, fann_type steepness,$/;"	f
+fann_activation_derived	fann/fann_train.c	/^fann_type fann_activation_derived(unsigned int activation_function,$/;"	f
+fann_activation_switch	fann/include/fann_activation.h	85;"	d
+fann_activationfunc_enum	fann/include/fann_data.h	/^enum fann_activationfunc_enum$/;"	g
+fann_add_candidate_neuron	fann/fann_cascade.c	/^void fann_add_candidate_neuron(struct fann *ann, struct fann_layer *layer)$/;"	f
+fann_add_layer	fann/fann_cascade.c	/^struct fann_layer *fann_add_layer(struct fann *ann, struct fann_layer *layer)$/;"	f
+fann_allocate_connections	fann/fann.c	/^void fann_allocate_connections(struct fann *ann)$/;"	f
+fann_allocate_neurons	fann/fann.c	/^void fann_allocate_neurons(struct fann *ann)$/;"	f
+fann_allocate_scale	fann/fann.c	/^int fann_allocate_scale(struct fann *ann)$/;"	f
+fann_allocate_structure	fann/fann.c	/^struct fann *fann_allocate_structure(unsigned int num_layers)$/;"	f
+fann_backpropagate_MSE	fann/fann_train.c	/^void fann_backpropagate_MSE(struct fann *ann)$/;"	f
+fann_callback_type	fann/include/fann_data.h	/^FANN_EXTERNAL typedef int (FANN_API * fann_callback_type) (struct fann *ann, struct fann_train_data *train, $/;"	t
+fann_cascadetrain_on_data	fann/fann_cascade.c	/^FANN_EXTERNAL void FANN_API fann_cascadetrain_on_data(struct fann *ann, struct fann_train_data *data,$/;"	f
+fann_cascadetrain_on_file	fann/fann_cascade.c	/^FANN_EXTERNAL void FANN_API fann_cascadetrain_on_file(struct fann *ann, const char *filename,$/;"	f
+fann_check_input_output_sizes	fann/fann_train_data.c	/^int fann_check_input_output_sizes(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_clear_scaling_params	fann/fann_train_data.c	/^FANN_EXTERNAL int FANN_API fann_clear_scaling_params(struct fann *ann)$/;"	f
+fann_clear_train_arrays	fann/fann_train.c	/^void fann_clear_train_arrays(struct fann *ann)$/;"	f
+fann_clip	fann/include/fann_internal.h	128;"	d
+fann_compute_MSE	fann/fann_train.c	/^void fann_compute_MSE(struct fann *ann, fann_type * desired_output)$/;"	f
+fann_copy	fann/fann.c	/^FANN_EXTERNAL struct fann* FANN_API fann_copy(struct fann* orig)$/;"	f
+fann_cos_derive	fann/include/fann_activation.h	83;"	d
+fann_cos_real	fann/include/fann_activation.h	82;"	d
+fann_cos_symmetric_derive	fann/include/fann_activation.h	75;"	d
+fann_cos_symmetric_real	fann/include/fann_activation.h	74;"	d
+fann_create_from_fd	fann/fann_io.c	/^struct fann *fann_create_from_fd(FILE * conf, const char *configuration_file)$/;"	f
+fann_create_from_fd_1_1	fann/fann_io.c	/^struct fann *fann_create_from_fd_1_1(FILE * conf, const char *configuration_file)$/;"	f
+fann_create_from_file	fann/fann_io.c	/^FANN_EXTERNAL struct fann *FANN_API fann_create_from_file(const char *configuration_file)$/;"	f
+fann_create_shortcut	fann/fann.c	/^FANN_EXTERNAL struct fann *FANN_API fann_create_shortcut(unsigned int num_layers, ...)$/;"	f
+fann_create_shortcut_array	fann/fann.c	/^FANN_EXTERNAL struct fann *FANN_API fann_create_shortcut_array(unsigned int num_layers,$/;"	f
+fann_create_sparse	fann/fann.c	/^FANN_EXTERNAL struct fann *FANN_API fann_create_sparse(float connection_rate, $/;"	f
+fann_create_sparse_array	fann/fann.c	/^FANN_EXTERNAL struct fann *FANN_API fann_create_sparse_array(float connection_rate,$/;"	f
+fann_create_standard	fann/fann.c	/^FANN_EXTERNAL struct fann *FANN_API fann_create_standard(unsigned int num_layers, ...)$/;"	f
+fann_create_standard_array	fann/fann.c	/^FANN_EXTERNAL struct fann *FANN_API fann_create_standard_array(unsigned int num_layers, $/;"	f
+fann_create_train	fann/fann_train_data.c	/^FANN_EXTERNAL struct fann_train_data * FANN_API fann_create_train(unsigned int num_data, unsigned int num_input, unsigned int num_output)$/;"	f
+fann_create_train_from_callback	fann/fann_train_data.c	/^FANN_EXTERNAL struct fann_train_data * FANN_API fann_create_train_from_callback(unsigned int num_data,$/;"	f
+fann_default_error_log	fann/fann_error.c	/^FILE * fann_default_error_log = (FILE *)-1;$/;"	v
+fann_descale_input	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_descale_input( struct fann *ann, fann_type *input_vector )$/;"	f
+fann_descale_output	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_descale_output( struct fann *ann, fann_type *output_vector )$/;"	f
+fann_descale_train	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_descale_train( struct fann *ann, struct fann_train_data *data )$/;"	f
+fann_desired_error_reached	fann/fann_train_data.c	/^int fann_desired_error_reached(struct fann *ann, float desired_error)$/;"	f
+fann_destroy	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_destroy(struct fann *ann)$/;"	f
+fann_destroy_train	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_destroy_train(struct fann_train_data *data)$/;"	f
+fann_div	fann/include/fann_internal.h	139;"	d
+fann_div	fann/include/fann_internal.h	146;"	d
+fann_duplicate_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL struct fann_train_data *FANN_API fann_duplicate_train_data(struct fann_train_data$/;"	f
+fann_elliot_derive	fann/include/fann_activation.h	62;"	d
+fann_elliot_real	fann/include/fann_activation.h	61;"	d
+fann_elliot_symmetric_derive	fann/include/fann_activation.h	67;"	d
+fann_elliot_symmetric_real	fann/include/fann_activation.h	66;"	d
+fann_errno_enum	fann/include/fann_error.h	/^enum fann_errno_enum$/;"	g
+fann_error	fann/fann_error.c	/^void fann_error(struct fann_error *errdat, const enum fann_errno_enum errno_f, ...)$/;"	f
+fann_errorfunc_enum	fann/include/fann_data.h	/^enum fann_errorfunc_enum$/;"	g
+fann_exp2	fann/include/fann_internal.h	129;"	d
+fann_gaussian_derive	fann/include/fann_activation.h	52;"	d
+fann_gaussian_real	fann/include/fann_activation.h	51;"	d
+fann_gaussian_symmetric_derive	fann/include/fann_activation.h	57;"	d
+fann_gaussian_symmetric_real	fann/include/fann_activation.h	56;"	d
+fann_get_MSE	fann/fann_train.c	/^FANN_EXTERNAL float FANN_API fann_get_MSE(struct fann *ann)$/;"	f
+fann_get_activation_function	fann/fann_train.c	/^    fann_get_activation_function(struct fann *ann, int layer, int neuron)$/;"	f
+fann_get_activation_steepness	fann/fann_train.c	/^    fann_get_activation_steepness(struct fann *ann, int layer, int neuron)$/;"	f
+fann_get_bias_array	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_get_bias_array(struct fann *ann, unsigned int *bias)$/;"	f
+fann_get_bit_fail	fann/fann_train.c	/^FANN_EXTERNAL unsigned int FANN_API fann_get_bit_fail(struct fann *ann)$/;"	f
+fann_get_cascade_num_candidates	fann/fann_cascade.c	/^FANN_EXTERNAL unsigned int FANN_API fann_get_cascade_num_candidates(struct fann *ann)$/;"	f
+fann_get_connection_array	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_get_connection_array(struct fann *ann, struct fann_connection *connections)$/;"	f
+fann_get_connection_rate	fann/fann.c	/^FANN_EXTERNAL float FANN_API fann_get_connection_rate(struct fann *ann)$/;"	f
+fann_get_errno	fann/fann_error.c	/^FANN_EXTERNAL enum fann_errno_enum FANN_API fann_get_errno(struct fann_error *errdat)$/;"	f
+fann_get_errstr	fann/fann_error.c	/^FANN_EXTERNAL char *FANN_API fann_get_errstr(struct fann_error *errdat)$/;"	f
+fann_get_layer	fann/fann_train.c	/^FANN_EXTERNAL struct fann_layer* FANN_API fann_get_layer(struct fann *ann, int layer)$/;"	f
+fann_get_layer_array	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_get_layer_array(struct fann *ann, unsigned int *layers)$/;"	f
+fann_get_network_type	fann/fann.c	/^FANN_EXTERNAL enum fann_nettype_enum FANN_API fann_get_network_type(struct fann *ann)$/;"	f
+fann_get_neuron	fann/fann_train.c	/^FANN_EXTERNAL struct fann_neuron* FANN_API fann_get_neuron(struct fann *ann, unsigned int layer, int neuron)$/;"	f
+fann_get_neuron_layer	fann/fann_train.c	/^FANN_EXTERNAL struct fann_neuron* FANN_API fann_get_neuron_layer(struct fann *ann, struct fann_layer* layer, int neuron)$/;"	f
+fann_get_num_layers	fann/fann.c	/^FANN_EXTERNAL unsigned int FANN_API fann_get_num_layers(struct fann *ann)$/;"	f
+fann_get_total_neurons	fann/fann.c	/^FANN_EXTERNAL unsigned int FANN_API fann_get_total_neurons(struct fann *ann)$/;"	f
+fann_init_error_data	fann/fann_error.c	/^void fann_init_error_data(struct fann_error *errdat)$/;"	f
+fann_init_weights	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_init_weights(struct fann *ann, struct fann_train_data *train_data)$/;"	f
+fann_initialize_candidates	fann/fann_cascade.c	/^int fann_initialize_candidates(struct fann *ann)$/;"	f
+fann_install_candidate	fann/fann_cascade.c	/^void fann_install_candidate(struct fann *ann)$/;"	f
+fann_length_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL unsigned int FANN_API fann_length_train_data(struct fann_train_data *data)$/;"	f
+fann_linear_derive	fann/include/fann_activation.h	37;"	d
+fann_linear_func	fann/include/fann_activation.h	32;"	d
+fann_max	fann/include/fann_internal.h	125;"	d
+fann_merge_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL struct fann_train_data *FANN_API fann_merge_train_data(struct fann_train_data *data1,$/;"	f
+fann_min	fann/include/fann_internal.h	126;"	d
+fann_mult	fann/include/fann_internal.h	138;"	d
+fann_mult	fann/include/fann_internal.h	145;"	d
+fann_nettype_enum	fann/include/fann_data.h	/^enum fann_nettype_enum$/;"	g
+fann_neuron	fann/include/fann_data.h	/^struct fann_neuron$/;"	s
+fann_num_input_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL unsigned int FANN_API fann_num_input_train_data(struct fann_train_data *data)$/;"	f
+fann_num_output_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL unsigned int FANN_API fann_num_output_train_data(struct fann_train_data *data)$/;"	f
+fann_print_connections	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_print_connections(struct fann *ann)$/;"	f
+fann_print_connections_raw	fann/fann_cascade.c	/^void fann_print_connections_raw(struct fann *ann)$/;"	f
+fann_print_error	fann/fann_error.c	/^FANN_EXTERNAL void FANN_API fann_print_error(struct fann_error *errdat)$/;"	f
+fann_print_parameters	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_print_parameters(struct fann *ann)$/;"	f
+fann_rand	fann/include/fann_internal.h	132;"	d
+fann_random_bias_weight	fann/include/fann_internal.h	141;"	d
+fann_random_bias_weight	fann/include/fann_internal.h	148;"	d
+fann_random_weight	fann/include/fann_internal.h	140;"	d
+fann_random_weight	fann/include/fann_internal.h	147;"	d
+fann_randomize_weights	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_randomize_weights(struct fann *ann, fann_type min_weight,$/;"	f
+fann_read_train_from_fd	fann/fann_train_data.c	/^struct fann_train_data *fann_read_train_from_fd(FILE * file, const char *filename)$/;"	f
+fann_read_train_from_file	fann/fann_train_data.c	/^FANN_EXTERNAL struct fann_train_data *FANN_API fann_read_train_from_file(const char *configuration_file)$/;"	f
+fann_reallocate_connections	fann/fann_cascade.c	/^int fann_reallocate_connections(struct fann *ann, unsigned int total_connections)$/;"	f
+fann_reallocate_neurons	fann/fann_cascade.c	/^int fann_reallocate_neurons(struct fann *ann, unsigned int total_neurons)$/;"	f
+fann_reset_MSE	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_reset_MSE(struct fann *ann)$/;"	f
+fann_reset_errno	fann/fann_error.c	/^FANN_EXTERNAL void FANN_API fann_reset_errno(struct fann_error *errdat)$/;"	f
+fann_reset_errstr	fann/fann_error.c	/^FANN_EXTERNAL void FANN_API fann_reset_errstr(struct fann_error *errdat)$/;"	f
+fann_run	fann/fann.c	/^FANN_EXTERNAL fann_type *FANN_API fann_run(struct fann * ann, fann_type * input)$/;"	f
+fann_safe_free	fann/include/fann_internal.h	127;"	d
+fann_save	fann/fann_io.c	/^FANN_EXTERNAL int FANN_API fann_save(struct fann *ann, const char *configuration_file)$/;"	f
+fann_save_internal	fann/fann_io.c	/^int fann_save_internal(struct fann *ann, const char *configuration_file, unsigned int save_as_fixed)$/;"	f
+fann_save_internal_fd	fann/fann_io.c	/^int fann_save_internal_fd(struct fann *ann, FILE * conf, const char *configuration_file,$/;"	f
+fann_save_to_fixed	fann/fann_io.c	/^FANN_EXTERNAL int FANN_API fann_save_to_fixed(struct fann *ann, const char *configuration_file)$/;"	f
+fann_save_train	fann/fann_train_data.c	/^FANN_EXTERNAL int FANN_API fann_save_train(struct fann_train_data *data, const char *filename)$/;"	f
+fann_save_train_internal	fann/fann_train_data.c	/^int fann_save_train_internal(struct fann_train_data *data, const char *filename,$/;"	f
+fann_save_train_internal_fd	fann/fann_train_data.c	/^int fann_save_train_internal_fd(struct fann_train_data *data, FILE * file, const char *filename,$/;"	f
+fann_save_train_to_fixed	fann/fann_train_data.c	/^FANN_EXTERNAL int FANN_API fann_save_train_to_fixed(struct fann_train_data *data, const char *filename,$/;"	f
+fann_scale_data	fann/fann_train_data.c	/^void fann_scale_data(fann_type ** data, unsigned int num_data, unsigned int num_elem,$/;"	f
+fann_scale_input	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_scale_input( struct fann *ann, fann_type *input_vector )$/;"	f
+fann_scale_input_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_scale_input_train_data(struct fann_train_data *train_data,$/;"	f
+fann_scale_output	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_scale_output( struct fann *ann, fann_type *output_vector )$/;"	f
+fann_scale_output_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_scale_output_train_data(struct fann_train_data *train_data,$/;"	f
+fann_scale_train	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_scale_train( struct fann *ann, struct fann_train_data *data )$/;"	f
+fann_scale_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_scale_train_data(struct fann_train_data *train_data,$/;"	f
+fann_scanf	fann/fann_io.c	344;"	d	file:
+fann_seed_rand	fann/fann.c	/^void fann_seed_rand()$/;"	f
+fann_set_activation_function	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_set_activation_function(struct fann *ann,$/;"	f
+fann_set_activation_function_hidden	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_set_activation_function_hidden(struct fann *ann,$/;"	f
+fann_set_activation_function_layer	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_set_activation_function_layer(struct fann *ann,$/;"	f
+fann_set_activation_function_output	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_set_activation_function_output(struct fann *ann,$/;"	f
+fann_set_activation_steepness	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_set_activation_steepness(struct fann *ann,$/;"	f
+fann_set_activation_steepness_hidden	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_set_activation_steepness_hidden(struct fann *ann,$/;"	f
+fann_set_activation_steepness_layer	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_set_activation_steepness_layer(struct fann *ann,$/;"	f
+fann_set_activation_steepness_output	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_set_activation_steepness_output(struct fann *ann,$/;"	f
+fann_set_cascade_activation_steepnesses	fann/fann_cascade.c	/^FANN_EXTERNAL void FANN_API fann_set_cascade_activation_steepnesses(struct fann *ann,$/;"	f
+fann_set_error_log	fann/fann_error.c	/^FANN_EXTERNAL void FANN_API fann_set_error_log(struct fann_error *errdat, FILE * log_file)$/;"	f
+fann_set_input_scaling_params	fann/fann_train_data.c	/^FANN_EXTERNAL int FANN_API fann_set_input_scaling_params($/;"	f
+fann_set_output_scaling_params	fann/fann_train_data.c	/^FANN_EXTERNAL int FANN_API fann_set_output_scaling_params($/;"	f
+fann_set_scaling_params	fann/fann_train_data.c	/^FANN_EXTERNAL int FANN_API fann_set_scaling_params($/;"	f
+fann_set_shortcut_connections	fann/fann_cascade.c	/^void fann_set_shortcut_connections(struct fann *ann)$/;"	f
+fann_set_weight	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_set_weight(struct fann *ann,$/;"	f
+fann_set_weight_array	fann/fann.c	/^FANN_EXTERNAL void FANN_API fann_set_weight_array(struct fann *ann,$/;"	f
+fann_shuffle_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_shuffle_train_data(struct fann_train_data *train_data)$/;"	f
+fann_sigmoid_derive	fann/include/fann_activation.h	42;"	d
+fann_sigmoid_real	fann/include/fann_activation.h	41;"	d
+fann_sigmoid_symmetric_derive	fann/include/fann_activation.h	47;"	d
+fann_sigmoid_symmetric_real	fann/include/fann_activation.h	46;"	d
+fann_sin_derive	fann/include/fann_activation.h	79;"	d
+fann_sin_real	fann/include/fann_activation.h	78;"	d
+fann_sin_symmetric_derive	fann/include/fann_activation.h	71;"	d
+fann_sin_symmetric_real	fann/include/fann_activation.h	70;"	d
+fann_skip	fann/fann_io.c	354;"	d	file:
+fann_stepwise	fann/include/fann_activation.h	33;"	d
+fann_stopfunc_enum	fann/include/fann_data.h	/^enum fann_stopfunc_enum$/;"	g
+fann_subset_train_data	fann/fann_train_data.c	/^FANN_EXTERNAL struct fann_train_data *FANN_API fann_subset_train_data(struct fann_train_data$/;"	f
+fann_test	fann/fann_train.c	/^FANN_EXTERNAL fann_type *FANN_API fann_test(struct fann *ann, fann_type * input,$/;"	f
+fann_test_data	fann/fann_train_data.c	/^FANN_EXTERNAL float FANN_API fann_test_data(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train	fann/fann_train.c	/^FANN_EXTERNAL void FANN_API fann_train(struct fann *ann, fann_type * input,$/;"	f
+fann_train_candidates	fann/fann_cascade.c	/^int fann_train_candidates(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train_candidates_epoch	fann/fann_cascade.c	/^fann_type fann_train_candidates_epoch(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train_data	fann/include/fann_train.h	/^struct fann_train_data$/;"	s
+fann_train_enum	fann/include/fann_data.h	/^enum fann_train_enum$/;"	g
+fann_train_epoch	fann/fann_train_data.c	/^FANN_EXTERNAL float FANN_API fann_train_epoch(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train_epoch_batch	fann/fann_train_data.c	/^float fann_train_epoch_batch(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train_epoch_incremental	fann/fann_train_data.c	/^float fann_train_epoch_incremental(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train_epoch_irpropm	fann/fann_train_data.c	/^float fann_train_epoch_irpropm(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train_epoch_quickprop	fann/fann_train_data.c	/^float fann_train_epoch_quickprop(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train_epoch_sarprop	fann/fann_train_data.c	/^float fann_train_epoch_sarprop(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_train_on_data	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_train_on_data(struct fann *ann, struct fann_train_data *data,$/;"	f
+fann_train_on_file	fann/fann_train_data.c	/^FANN_EXTERNAL void FANN_API fann_train_on_file(struct fann *ann, const char *filename,$/;"	f
+fann_train_outputs	fann/fann_cascade.c	/^int fann_train_outputs(struct fann *ann, struct fann_train_data *data, float desired_error)$/;"	f
+fann_train_outputs_epoch	fann/fann_cascade.c	/^float fann_train_outputs_epoch(struct fann *ann, struct fann_train_data *data)$/;"	f
+fann_type	fann/include/doublefann.h	/^typedef double fann_type;$/;"	t
+fann_type	fann/include/fixedfann.h	/^typedef int fann_type;$/;"	t
+fann_type	fann/include/floatfann.h	/^typedef float fann_type;$/;"	t
+fann_update_MSE	fann/fann_train.c	/^fann_type fann_update_MSE(struct fann *ann, struct fann_neuron* neuron, fann_type neuron_diff)$/;"	f
+fann_update_candidate_slopes	fann/fann_cascade.c	/^void fann_update_candidate_slopes(struct fann *ann)$/;"	f
+fann_update_candidate_weights	fann/fann_cascade.c	/^void fann_update_candidate_weights(struct fann *ann, unsigned int num_data)$/;"	f
+fann_update_slopes_batch	fann/fann_train.c	/^void fann_update_slopes_batch(struct fann *ann, struct fann_layer *layer_begin,$/;"	f
+fann_update_stepwise	fann/fann.c	/^void fann_update_stepwise(struct fann *ann)$/;"	f
+fann_update_weights	fann/fann_train.c	/^void fann_update_weights(struct fann *ann)$/;"	f
+fann_update_weights_batch	fann/fann_train.c	/^void fann_update_weights_batch(struct fann *ann, unsigned int num_data, unsigned int first_weight,$/;"	f
+fann_update_weights_irpropm	fann/fann_train.c	/^void fann_update_weights_irpropm(struct fann *ann, unsigned int first_weight, unsigned int past_end)$/;"	f
+fann_update_weights_quickprop	fann/fann_train.c	/^void fann_update_weights_quickprop(struct fann *ann, unsigned int num_data,$/;"	f
+fann_update_weights_sarprop	fann/fann_train.c	/^void fann_update_weights_sarprop(struct fann *ann, unsigned int epoch, unsigned int first_weight, unsigned int past_end)$/;"	f
+fd	wsn.h	/^    int fd;$/;"	m	struct:wsnClient
+first_con	fann/include/fann_data.h	/^	unsigned int first_con;$/;"	m	struct:fann_neuron
+get_MSE	fann/include/fann_cpp.h	/^        float get_MSE()$/;"	f	class:FANN::neural_net
+get_activation_function	fann/include/fann_cpp.h	/^        activation_function_enum get_activation_function(int layer, int neuron)$/;"	f	class:FANN::neural_net
+get_activation_steepness	fann/include/fann_cpp.h	/^        fann_type get_activation_steepness(int layer, int neuron)$/;"	f	class:FANN::neural_net
+get_bias_array	fann/include/fann_cpp.h	/^        void get_bias_array(unsigned int *bias)$/;"	f	class:FANN::neural_net
+get_bit_fail	fann/include/fann_cpp.h	/^        unsigned int get_bit_fail()$/;"	f	class:FANN::neural_net
+get_bit_fail_limit	fann/include/fann_cpp.h	/^        fann_type get_bit_fail_limit()$/;"	f	class:FANN::neural_net
+get_cascade_activation_functions	fann/include/fann_cpp.h	/^        activation_function_enum * get_cascade_activation_functions()$/;"	f	class:FANN::neural_net
+get_cascade_activation_functions_count	fann/include/fann_cpp.h	/^        unsigned int get_cascade_activation_functions_count()$/;"	f	class:FANN::neural_net
+get_cascade_activation_steepnesses	fann/include/fann_cpp.h	/^        fann_type *get_cascade_activation_steepnesses()$/;"	f	class:FANN::neural_net
+get_cascade_activation_steepnesses_count	fann/include/fann_cpp.h	/^        unsigned int get_cascade_activation_steepnesses_count()$/;"	f	class:FANN::neural_net
+get_cascade_candidate_change_fraction	fann/include/fann_cpp.h	/^        float get_cascade_candidate_change_fraction()$/;"	f	class:FANN::neural_net
+get_cascade_candidate_limit	fann/include/fann_cpp.h	/^        fann_type get_cascade_candidate_limit()$/;"	f	class:FANN::neural_net
+get_cascade_candidate_stagnation_epochs	fann/include/fann_cpp.h	/^        unsigned int get_cascade_candidate_stagnation_epochs()$/;"	f	class:FANN::neural_net
+get_cascade_max_cand_epochs	fann/include/fann_cpp.h	/^        unsigned int get_cascade_max_cand_epochs()$/;"	f	class:FANN::neural_net
+get_cascade_max_out_epochs	fann/include/fann_cpp.h	/^        unsigned int get_cascade_max_out_epochs()$/;"	f	class:FANN::neural_net
+get_cascade_num_candidate_groups	fann/include/fann_cpp.h	/^        unsigned int get_cascade_num_candidate_groups()$/;"	f	class:FANN::neural_net
+get_cascade_num_candidates	fann/include/fann_cpp.h	/^        unsigned int get_cascade_num_candidates()$/;"	f	class:FANN::neural_net
+get_cascade_output_change_fraction	fann/include/fann_cpp.h	/^        float get_cascade_output_change_fraction()$/;"	f	class:FANN::neural_net
+get_cascade_output_stagnation_epochs	fann/include/fann_cpp.h	/^        unsigned int get_cascade_output_stagnation_epochs()$/;"	f	class:FANN::neural_net
+get_cascade_weight_multiplier	fann/include/fann_cpp.h	/^        fann_type get_cascade_weight_multiplier()$/;"	f	class:FANN::neural_net
+get_connection_array	fann/include/fann_cpp.h	/^        void get_connection_array(connection *connections)$/;"	f	class:FANN::neural_net
+get_connection_rate	fann/include/fann_cpp.h	/^        float get_connection_rate()$/;"	f	class:FANN::neural_net
+get_decimal_point	fann/include/fann_cpp.h	/^        unsigned int get_decimal_point()$/;"	f	class:FANN::neural_net
+get_errno	fann/include/fann_cpp.h	/^        unsigned int get_errno()$/;"	f	class:FANN::neural_net
+get_errstr	fann/include/fann_cpp.h	/^        std::string get_errstr()$/;"	f	class:FANN::neural_net
+get_input	fann/include/fann_cpp.h	/^        fann_type **get_input()$/;"	f	class:FANN::training_data
+get_layer_array	fann/include/fann_cpp.h	/^        void get_layer_array(unsigned int *layers)$/;"	f	class:FANN::neural_net
+get_learning_momentum	fann/include/fann_cpp.h	/^        float get_learning_momentum()$/;"	f	class:FANN::neural_net
+get_learning_rate	fann/include/fann_cpp.h	/^        float get_learning_rate()$/;"	f	class:FANN::neural_net
+get_multiplier	fann/include/fann_cpp.h	/^        unsigned int get_multiplier()$/;"	f	class:FANN::neural_net
+get_network_type	fann/include/fann_cpp.h	/^        network_type_enum get_network_type()$/;"	f	class:FANN::neural_net
+get_num_input	fann/include/fann_cpp.h	/^        unsigned int get_num_input()$/;"	f	class:FANN::neural_net
+get_num_layers	fann/include/fann_cpp.h	/^        unsigned int get_num_layers()$/;"	f	class:FANN::neural_net
+get_num_output	fann/include/fann_cpp.h	/^        unsigned int get_num_output()$/;"	f	class:FANN::neural_net
+get_output	fann/include/fann_cpp.h	/^        fann_type **get_output()$/;"	f	class:FANN::training_data
+get_quickprop_decay	fann/include/fann_cpp.h	/^        float get_quickprop_decay()$/;"	f	class:FANN::neural_net
+get_quickprop_mu	fann/include/fann_cpp.h	/^        float get_quickprop_mu()$/;"	f	class:FANN::neural_net
+get_rprop_decrease_factor	fann/include/fann_cpp.h	/^        float get_rprop_decrease_factor()$/;"	f	class:FANN::neural_net
+get_rprop_delta_max	fann/include/fann_cpp.h	/^        float get_rprop_delta_max()$/;"	f	class:FANN::neural_net
+get_rprop_delta_min	fann/include/fann_cpp.h	/^        float get_rprop_delta_min()$/;"	f	class:FANN::neural_net
+get_rprop_delta_zero	fann/include/fann_cpp.h	/^        float get_rprop_delta_zero()$/;"	f	class:FANN::neural_net
+get_rprop_increase_factor	fann/include/fann_cpp.h	/^        float get_rprop_increase_factor()$/;"	f	class:FANN::neural_net
+get_sarprop_step_error_shift	fann/include/fann_cpp.h	/^        float get_sarprop_step_error_shift()$/;"	f	class:FANN::neural_net
+get_sarprop_step_error_threshold_factor	fann/include/fann_cpp.h	/^        float get_sarprop_step_error_threshold_factor()$/;"	f	class:FANN::neural_net
+get_sarprop_temperature	fann/include/fann_cpp.h	/^        float get_sarprop_temperature()$/;"	f	class:FANN::neural_net
+get_sarprop_weight_decay_shift	fann/include/fann_cpp.h	/^        float get_sarprop_weight_decay_shift()$/;"	f	class:FANN::neural_net
+get_total_connections	fann/include/fann_cpp.h	/^        unsigned int get_total_connections()$/;"	f	class:FANN::neural_net
+get_total_neurons	fann/include/fann_cpp.h	/^        unsigned int get_total_neurons()$/;"	f	class:FANN::neural_net
+get_train_error_function	fann/include/fann_cpp.h	/^        error_function_enum get_train_error_function()$/;"	f	class:FANN::neural_net
+get_train_stop_function	fann/include/fann_cpp.h	/^        stop_function_enum get_train_stop_function()$/;"	f	class:FANN::neural_net
+get_training_algorithm	fann/include/fann_cpp.h	/^        training_algorithm_enum get_training_algorithm()$/;"	f	class:FANN::neural_net
+gettimeofday	fann/include/compat_time.h	/^$/;"	f
+humi	wsn.c	/^    float humi;$/;"	m	struct:clientData	file:
+id	wsn.c	/^    char id[DEVICE_ID_LENGTH];$/;"	m	struct:clientData	file:
+initServer	wsn.c	/^static void initServer() {$/;"	f	file:
+initWorkerThread	wsn.c	/^static void initWorkerThread() {$/;"	f	file:
+init_weights	fann/include/fann_cpp.h	/^        void init_weights(const training_data &data)$/;"	f	class:FANN::neural_net
+initialize_candidate_weights	fann/fann_cascade.c	/^void initialize_candidate_weights(struct fann *ann, unsigned int first_con, unsigned int last_con, float scale_factor)$/;"	f
+input	fann/include/fann_train.h	/^	fann_type **input;$/;"	m	struct:fann_train_data
+internal_callback	fann/include/fann_cpp.h	/^        static int FANN_API internal_callback(struct fann *ann, struct fann_train_data *train, $/;"	f	class:FANN::neural_net
+last_con	fann/include/fann_data.h	/^	unsigned int last_con;$/;"	m	struct:fann_neuron
+length_train_data	fann/include/fann_cpp.h	/^        unsigned int length_train_data()$/;"	f	class:FANN::training_data
+listenfd	wsn.h	/^    int listenfd;$/;"	m	struct:wsnServer
+main	wsn.c	/^int main(int argc, char **argv) {$/;"	f
+mask	ae.h	/^    int mask;$/;"	m	struct:aeFileEvent
+max_size	wsn.c	/^    int cur_num, cur_ind, cur_next, max_size;$/;"	m	struct:clientDataQueue	file:
+maxfd	ae.h	/^    int maxfd;                      \/* max file descriptor currently used *\/ $/;"	m	struct:aeEventLoop
+merge_train_data	fann/include/fann_cpp.h	/^        void merge_train_data(const training_data &data)$/;"	f	class:FANN::training_data
+mutex	wsn.c	/^    pthread_mutex_t mutex;$/;"	m	struct:clientDataQueue	file:
+net	fann/include/fann_cpp.h	/^            neural_net *net; \/\/ This pointer for the neural network$/;"	m	struct:FANN::neural_net::user_context_type
+network_type_enum	fann/include/fann_cpp.h	/^    enum network_type_enum$/;"	g	namespace:FANN
+neural_net	fann/include/fann_cpp.h	/^	neural_net(const neural_net& other)$/;"	f	class:FANN::neural_net
+neural_net	fann/include/fann_cpp.h	/^	neural_net(struct fann* other)$/;"	f	class:FANN::neural_net
+neural_net	fann/include/fann_cpp.h	/^        neural_net() : ann(NULL)$/;"	f	class:FANN::neural_net
+neural_net	fann/include/fann_cpp.h	/^    class neural_net$/;"	c	namespace:FANN
+nleft	wsn.h	/^    int nleft;$/;"	m	struct:wsnClient
+nread	wsn.h	/^    int nread;$/;"	m	struct:wsnClient
+num_data	fann/include/fann_train.h	/^	unsigned int num_data;$/;"	m	struct:fann_train_data
+num_input	fann/include/fann_train.h	/^	unsigned int num_input;$/;"	m	struct:fann_train_data
+num_input_train_data	fann/include/fann_cpp.h	/^        unsigned int num_input_train_data()$/;"	f	class:FANN::training_data
+num_output	fann/include/fann_train.h	/^	unsigned int num_output;$/;"	m	struct:fann_train_data
+num_output_train_data	fann/include/fann_cpp.h	/^        unsigned int num_output_train_data()$/;"	f	class:FANN::training_data
+output	fann/include/fann_train.h	/^	fann_type **output;$/;"	m	struct:fann_train_data
+port	wsn.h	/^    int port;$/;"	m	struct:wsnServer
+print_connections	fann/include/fann_cpp.h	/^        void print_connections()$/;"	f	class:FANN::neural_net
+print_error	fann/include/fann_cpp.h	/^        void print_error()$/;"	f	class:FANN::neural_net
+print_parameters	fann/include/fann_cpp.h	/^        void print_parameters()$/;"	f	class:FANN::neural_net
+processClient	wsn.c	/^void processClient(wsnClient* c) {$/;"	f
+processClientData	wsn.c	/^static void *processClientData(void *arg) {$/;"	f	file:
+procs	ae.h	/^    aeFileEvent* procs;$/;"	m	struct:aeEventLoop
+qs01	wsn.c	/^    int qs01;$/;"	m	struct:clientData	file:
+queue	wsn.c	/^clientDataQueue queue = {$/;"	v
+randomize_weights	fann/include/fann_cpp.h	/^        void randomize_weights(fann_type min_weight, fann_type max_weight)$/;"	f	class:FANN::neural_net
+read_train_from_file	fann/include/fann_cpp.h	/^        bool read_train_from_file(const std::string &filename)$/;"	f	class:FANN::training_data
+reset_MSE	fann/include/fann_cpp.h	/^        void reset_MSE()$/;"	f	class:FANN::neural_net
+reset_errno	fann/include/fann_cpp.h	/^        void reset_errno()$/;"	f	class:FANN::neural_net
+reset_errstr	fann/include/fann_cpp.h	/^        void reset_errstr()$/;"	f	class:FANN::neural_net
+rfileProc	ae.h	/^    aeFileProc* rfileProc;$/;"	m	struct:aeFileEvent
+run	fann/include/fann_cpp.h	/^        fann_type* run(fann_type *input)$/;"	f	class:FANN::neural_net
+save	fann/include/fann_cpp.h	/^        bool save(const std::string &configuration_file)$/;"	f	class:FANN::neural_net
+save_to_fixed	fann/include/fann_cpp.h	/^        int save_to_fixed(const std::string &configuration_file)$/;"	f	class:FANN::neural_net
+save_train	fann/include/fann_cpp.h	/^        bool save_train(const std::string &filename)$/;"	f	class:FANN::training_data
+save_train_to_fixed	fann/include/fann_cpp.h	/^        bool save_train_to_fixed(const std::string &filename, unsigned int decimal_point)$/;"	f	class:FANN::training_data
+scale_input	fann/include/fann_cpp.h	/^        void scale_input(fann_type *input_vector)$/;"	f	class:FANN::neural_net
+scale_input_train_data	fann/include/fann_cpp.h	/^        void scale_input_train_data(fann_type new_min, fann_type new_max)$/;"	f	class:FANN::training_data
+scale_output	fann/include/fann_cpp.h	/^        void scale_output(fann_type *output_vector)$/;"	f	class:FANN::neural_net
+scale_output_train_data	fann/include/fann_cpp.h	/^        void scale_output_train_data(fann_type new_min, fann_type new_max)$/;"	f	class:FANN::training_data
+scale_train	fann/include/fann_cpp.h	/^        void scale_train(training_data &data)$/;"	f	class:FANN::neural_net
+scale_train_data	fann/include/fann_cpp.h	/^        void scale_train_data(fann_type new_min, fann_type new_max)$/;"	f	class:FANN::training_data
+server	wsn.c	/^wsnServer server;$/;"	v
+set_activation_function	fann/include/fann_cpp.h	/^        void set_activation_function(activation_function_enum activation_function, int layer, int neuron)$/;"	f	class:FANN::neural_net
+set_activation_function_hidden	fann/include/fann_cpp.h	/^        void set_activation_function_hidden(activation_function_enum activation_function)$/;"	f	class:FANN::neural_net
+set_activation_function_layer	fann/include/fann_cpp.h	/^        void set_activation_function_layer(activation_function_enum activation_function, int layer)$/;"	f	class:FANN::neural_net
+set_activation_function_output	fann/include/fann_cpp.h	/^        void set_activation_function_output(activation_function_enum activation_function)$/;"	f	class:FANN::neural_net
+set_activation_steepness	fann/include/fann_cpp.h	/^        void set_activation_steepness(fann_type steepness, int layer, int neuron)$/;"	f	class:FANN::neural_net
+set_activation_steepness_hidden	fann/include/fann_cpp.h	/^        void set_activation_steepness_hidden(fann_type steepness)$/;"	f	class:FANN::neural_net
+set_activation_steepness_layer	fann/include/fann_cpp.h	/^        void set_activation_steepness_layer(fann_type steepness, int layer)$/;"	f	class:FANN::neural_net
+set_activation_steepness_output	fann/include/fann_cpp.h	/^        void set_activation_steepness_output(fann_type steepness)$/;"	f	class:FANN::neural_net
+set_bit_fail_limit	fann/include/fann_cpp.h	/^        void set_bit_fail_limit(fann_type bit_fail_limit)$/;"	f	class:FANN::neural_net
+set_callback	fann/include/fann_cpp.h	/^        void set_callback(callback_type callback, void *user_data)$/;"	f	class:FANN::neural_net
+set_cascade_activation_functions	fann/include/fann_cpp.h	/^        void set_cascade_activation_functions(activation_function_enum *cascade_activation_functions,$/;"	f	class:FANN::neural_net
+set_cascade_activation_steepnesses	fann/include/fann_cpp.h	/^        void set_cascade_activation_steepnesses(fann_type *cascade_activation_steepnesses,$/;"	f	class:FANN::neural_net
+set_cascade_candidate_change_fraction	fann/include/fann_cpp.h	/^        void set_cascade_candidate_change_fraction(float cascade_candidate_change_fraction)$/;"	f	class:FANN::neural_net
+set_cascade_candidate_limit	fann/include/fann_cpp.h	/^        void set_cascade_candidate_limit(fann_type cascade_candidate_limit)$/;"	f	class:FANN::neural_net
+set_cascade_candidate_stagnation_epochs	fann/include/fann_cpp.h	/^        void set_cascade_candidate_stagnation_epochs(unsigned int cascade_candidate_stagnation_epochs)$/;"	f	class:FANN::neural_net
+set_cascade_max_cand_epochs	fann/include/fann_cpp.h	/^        void set_cascade_max_cand_epochs(unsigned int cascade_max_cand_epochs)$/;"	f	class:FANN::neural_net
+set_cascade_max_out_epochs	fann/include/fann_cpp.h	/^        void set_cascade_max_out_epochs(unsigned int cascade_max_out_epochs)$/;"	f	class:FANN::neural_net
+set_cascade_num_candidate_groups	fann/include/fann_cpp.h	/^        void set_cascade_num_candidate_groups(unsigned int cascade_num_candidate_groups)$/;"	f	class:FANN::neural_net
+set_cascade_output_change_fraction	fann/include/fann_cpp.h	/^        void set_cascade_output_change_fraction(float cascade_output_change_fraction)$/;"	f	class:FANN::neural_net
+set_cascade_output_stagnation_epochs	fann/include/fann_cpp.h	/^        void set_cascade_output_stagnation_epochs(unsigned int cascade_output_stagnation_epochs)$/;"	f	class:FANN::neural_net
+set_cascade_weight_multiplier	fann/include/fann_cpp.h	/^        void set_cascade_weight_multiplier(fann_type cascade_weight_multiplier)$/;"	f	class:FANN::neural_net
+set_error_log	fann/include/fann_cpp.h	/^        void set_error_log(FILE *log_file)$/;"	f	class:FANN::neural_net
+set_input_scaling_params	fann/include/fann_cpp.h	/^        bool set_input_scaling_params(const training_data &data, float new_input_min, float new_input_max)$/;"	f	class:FANN::neural_net
+set_learning_momentum	fann/include/fann_cpp.h	/^        void set_learning_momentum(float learning_momentum)$/;"	f	class:FANN::neural_net
+set_learning_rate	fann/include/fann_cpp.h	/^        void set_learning_rate(float learning_rate)$/;"	f	class:FANN::neural_net
+set_output_scaling_params	fann/include/fann_cpp.h	/^        bool set_output_scaling_params(const training_data &data, float new_output_min, float new_output_max)$/;"	f	class:FANN::neural_net
+set_quickprop_decay	fann/include/fann_cpp.h	/^        void set_quickprop_decay(float quickprop_decay)$/;"	f	class:FANN::neural_net
+set_quickprop_mu	fann/include/fann_cpp.h	/^        void set_quickprop_mu(float quickprop_mu)$/;"	f	class:FANN::neural_net
+set_rprop_decrease_factor	fann/include/fann_cpp.h	/^        void set_rprop_decrease_factor(float rprop_decrease_factor)$/;"	f	class:FANN::neural_net
+set_rprop_delta_max	fann/include/fann_cpp.h	/^        void set_rprop_delta_max(float rprop_delta_max)$/;"	f	class:FANN::neural_net
+set_rprop_delta_min	fann/include/fann_cpp.h	/^        void set_rprop_delta_min(float rprop_delta_min)$/;"	f	class:FANN::neural_net
+set_rprop_delta_zero	fann/include/fann_cpp.h	/^        void set_rprop_delta_zero(float rprop_delta_zero)$/;"	f	class:FANN::neural_net
+set_rprop_increase_factor	fann/include/fann_cpp.h	/^        void set_rprop_increase_factor(float rprop_increase_factor)$/;"	f	class:FANN::neural_net
+set_sarprop_step_error_shift	fann/include/fann_cpp.h	/^        void set_sarprop_step_error_shift(float sarprop_step_error_shift)$/;"	f	class:FANN::neural_net
+set_sarprop_step_error_threshold_factor	fann/include/fann_cpp.h	/^        void set_sarprop_step_error_threshold_factor(float sarprop_step_error_threshold_factor)$/;"	f	class:FANN::neural_net
+set_sarprop_temperature	fann/include/fann_cpp.h	/^        void set_sarprop_temperature(float sarprop_temperature)$/;"	f	class:FANN::neural_net
+set_sarprop_weight_decay_shift	fann/include/fann_cpp.h	/^        void set_sarprop_weight_decay_shift(float sarprop_weight_decay_shift)$/;"	f	class:FANN::neural_net
+set_scaling_params	fann/include/fann_cpp.h	/^        bool set_scaling_params(const training_data &data,$/;"	f	class:FANN::neural_net
+set_train_data	fann/include/fann_cpp.h	/^        void set_train_data(struct fann_train_data *data)$/;"	f	class:FANN::training_data
+set_train_data	fann/include/fann_cpp.h	/^        void set_train_data(unsigned int num_data,$/;"	f	class:FANN::training_data
+set_train_error_function	fann/include/fann_cpp.h	/^        void set_train_error_function(error_function_enum train_error_function)$/;"	f	class:FANN::neural_net
+set_train_stop_function	fann/include/fann_cpp.h	/^        void set_train_stop_function(stop_function_enum train_stop_function)$/;"	f	class:FANN::neural_net
+set_training_algorithm	fann/include/fann_cpp.h	/^        void set_training_algorithm(training_algorithm_enum training_algorithm)$/;"	f	class:FANN::neural_net
+set_weight	fann/include/fann_cpp.h	/^        void set_weight(unsigned int from_neuron, unsigned int to_neuron, fann_type weight)$/;"	f	class:FANN::neural_net
+set_weight_array	fann/include/fann_cpp.h	/^        void set_weight_array(connection *connections, unsigned int num_connections)$/;"	f	class:FANN::neural_net
+setsize	ae.h	/^    int setsize;                    \/* max file descirptor tracked *\/ $/;"	m	struct:aeEventLoop
+setsize	wsn.h	/^    int setsize;$/;"	m	struct:wsnServer
+shuffle_train_data	fann/include/fann_cpp.h	/^        void shuffle_train_data()$/;"	f	class:FANN::training_data
+snprintf	fann/fann_error.c	30;"	d	file:
+stop_function_enum	fann/include/fann_cpp.h	/^    enum stop_function_enum$/;"	g	namespace:FANN
+subset_train_data	fann/include/fann_cpp.h	/^        void subset_train_data(unsigned int pos, unsigned int length)$/;"	f	class:FANN::training_data
+sum	fann/include/fann_data.h	/^	fann_type sum;$/;"	m	struct:fann_neuron
+temp	wsn.c	/^    float temp;$/;"	m	struct:clientData	file:
+test	fann/include/fann_cpp.h	/^        fann_type * test(fann_type *input, fann_type *desired_output)$/;"	f	class:FANN::neural_net
+test_data	fann/include/fann_cpp.h	/^        float test_data(const training_data &data)$/;"	f	class:FANN::neural_net
+tgs2600	wsn.c	/^    int tgs2600;$/;"	m	struct:clientData	file:
+tgs2602	wsn.c	/^    int tgs2602;$/;"	m	struct:clientData	file:
+timeval	fann/include/compat_time.h	/^	$/;"	s
+timezone	fann/include/compat_time.h	/^$/;"	s
+train	fann/include/fann_cpp.h	/^        void train(fann_type *input, fann_type *desired_output)$/;"	f	class:FANN::neural_net
+train_data	fann/include/fann_cpp.h	/^        struct fann_train_data* train_data;$/;"	m	class:FANN::training_data	typeref:struct:FANN::training_data::fann_train_data
+train_epoch	fann/include/fann_cpp.h	/^        float train_epoch(const training_data &data)$/;"	f	class:FANN::neural_net
+train_on_data	fann/include/fann_cpp.h	/^        void train_on_data(const training_data &data, unsigned int max_epochs,$/;"	f	class:FANN::neural_net
+train_on_file	fann/include/fann_cpp.h	/^        void train_on_file(const std::string &filename, unsigned int max_epochs,$/;"	f	class:FANN::neural_net
+training_algorithm_enum	fann/include/fann_cpp.h	/^    enum training_algorithm_enum {$/;"	g	namespace:FANN
+training_data	fann/include/fann_cpp.h	/^        training_data() : train_data(NULL)$/;"	f	class:FANN::training_data
+training_data	fann/include/fann_cpp.h	/^        training_data(const training_data &data)$/;"	f	class:FANN::training_data
+training_data	fann/include/fann_cpp.h	/^    class training_data$/;"	c	namespace:FANN
+tv_sec	fann/include/compat_time.h	/^	$/;"	m	struct:timeval
+tv_usec	fann/include/compat_time.h	/^	 $/;"	m	struct:timeval
+tz_dsttime	fann/include/compat_time.h	/^	 $/;"	m	struct:timezone
+tz_minuteswest	fann/include/compat_time.h	/^	$/;"	m	struct:timezone
+u	fann/include/compat_time.h	/^	$/;"	m	union:_LARGE_INTEGER	typeref:struct:_LARGE_INTEGER::__anon1
+user_callback	fann/include/fann_cpp.h	/^            callback_type user_callback; \/\/ Pointer to user callback function$/;"	m	struct:FANN::neural_net::user_context_type
+user_context	fann/include/fann_cpp.h	/^        } user_context;$/;"	t	class:FANN::neural_net	typeref:struct:FANN::neural_net::user_context_type
+user_context_type	fann/include/fann_cpp.h	/^        typedef struct user_context_type$/;"	s	class:FANN::neural_net
+user_data	fann/include/fann_cpp.h	/^            void *user_data; \/\/ Arbitrary data pointer passed to the callback$/;"	m	struct:FANN::neural_net::user_context_type
+value	fann/include/fann_data.h	/^	fann_type value;$/;"	m	struct:fann_neuron
+vsnprintf	fann/fann_error.c	29;"	d	file:
+wfileProc	ae.h	/^    aeFileProc* wfileProc;$/;"	m	struct:aeFileEvent
+wsnClient	wsn.h	/^typedef struct wsnClient {$/;"	s
+wsnClient	wsn.h	/^} wsnClient;$/;"	t	typeref:struct:wsnClient
+wsnServer	wsn.h	/^typedef struct wsnServer {$/;"	s
+wsnServer	wsn.h	/^} wsnServer;$/;"	t	typeref:struct:wsnServer
+~neural_net	fann/include/fann_cpp.h	/^        ~neural_net()$/;"	f	class:FANN::neural_net
+~training_data	fann/include/fann_cpp.h	/^        ~training_data()$/;"	f	class:FANN::training_data
